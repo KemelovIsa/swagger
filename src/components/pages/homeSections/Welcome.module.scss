@@ -1,0 +1,64 @@
+.Welcome {
+	.fragma {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		overflow: hidden;
+	}
+	.content {
+		position: static;
+		.product {
+			box-shadow: 5px 5px 5px 5px;
+			width: 400px;
+			height: 400px;
+			margin-top: 20px;
+			.product_img {
+				width: 100px;
+				max-width: 100px;
+			}
+			.vendor {
+				.vendor_img {
+					width: 100px;
+					max-width: 100px;
+				}
+			}
+		}
+	}
+}
+
+.containerss input {
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+.containerss {
+	display: block;
+	position: relative;
+	cursor: pointer;
+	user-select: none;
+	margin-top: 10px;
+	margin-left: 130px;
+}
+
+.containerss svg {
+	position: relative;
+	height: 30px;
+	width: 30px;
+	transition: all 0.3s;
+	fill: #666;
+}
+
+.containerss svg:hover {
+	transform: scale(1.1);
+}
+
+.containerss input:checked ~ svg {
+	fill: #e3474f;
+}
+.twos {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	margin-left: 90px;
+}

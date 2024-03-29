@@ -1,0 +1,25 @@
+.Header {
+	background-color: #8c08ff;
+	color: rgb(251, 10, 10);
+	width: 100%;
+	height: 80px;
+	border-radius: 20px;
+}
+.google_icon {
+	width: 60px;
+	height: 60px;
+	color: aqua;
+}
+
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.firstImage {
+	img {
+		margin-left: 15px;
+	}
+}

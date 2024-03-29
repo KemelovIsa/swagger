@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+::-webkit-scrollbar {
+	width: 4px;
+	height: 4px;
+}
+::-webkit-scrollbar-track {
+	background: #000000;
+}
+::-webkit-scrollbar-thumb {
+	background: #6741d9;
+	border-radius: 10px;
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	flex-wrap: wrap;
+}
+ul,
+ol {
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+
+body {
+	color: #fff;
+	text-align: center;
+	background: linear-gradient(85deg, rgb(0, 0, 0), #041c63, #1e333a, #510000);
+	background-size: 400% 400%;
+	animation: gradientAnimation 5s infinite;
+	font-family: 'Arial', sans-serif;
+	background-color: #b71010;
+}
+@keyframes gradientAnimation {
+	0% {
+		background-position: 0% 50%;
+	}
+	25% {
+		background-position: 25% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	75% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.container {
+	width: 100%;
+	max-width: 1280px;
+	margin-inline: auto;
+	padding-inline: 20px;
+}
